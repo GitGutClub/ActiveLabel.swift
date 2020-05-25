@@ -231,10 +231,7 @@ typealias ElementTuple = (range: NSRange, element: ActiveElement, type: ActiveTy
         case .regionMoved:
             break
         case .regionExited:
-            break
-        }
-        @unknown default:
-            break
+            break      
         }
         
         return avoidSuperCall
